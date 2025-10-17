@@ -308,69 +308,60 @@
 
 
 
-
-
-i=1;
-while(i<=6)
-{
-  let rows=""
-
-  j=1;
-  while(j<=i)
-  {
-  if(i%2==0)
-  {
-    rows+=" @ "
-  }
-      
-  else {
-      rows+=" * "
-    
-   }
-   j++;
-  }
-   console.log(rows)
-   i++;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// for (let i=1;i<=6;i++)
+// i=1;
+// while(i<=6)
 // {
-//     let rows=" ";
-//     for(let j=1;j<=i;j++)
-//     {
-//         if(i%2==0){
-//             rows+="@  ";
-//         }
-//         else{
-//             rows+="* ";
-//         }
-//     }
-//     console.log(rows)
+//   let rows=""
+
+//   j=1;
+//   while(j<=i)
+//   {
+//   if(i%2==0)
+//   {
+//     rows+=" @ "
+//   }
+      
+//   else {
+//       rows+=" * "
+//    }
+//    j++;
+//   }
+//    console.log(rows)
+//    i++;
 // }
 
 
 
 
 
+// for(i=1;i<=100;i++)
+// {
+//   if(i%3==0 && i%5==0)
+//   {
+//     console.log("fizz buzz")
+//   }
+
+//   else if(i%3==0)
+//   {
+//     console.log("fizz")
+//   }
+//   else if(i%5==0)
+//     {
+//     console.log("buzz")
+//   }
+  
+//   else
+//     {
+//     console.log(i)
+//   }
+// }
+
+
+
+// for(i=100;i>=1;i--)
+// {
+//   console.log(i);
+//
 
 
 
@@ -380,20 +371,78 @@ while(i<=6)
 
 
 
+// i=1;
+// do{
+//   console.log(i)
+//   i++
+// }
+// while(i<=10)
 
 
 
 
+// i=10;
+// do{
+//   console.log(i)
+//   i--
+// }
+// while(i>=1)  
+
+
+
+// i=10
+// do{
+//    if(i%2==0)
+//    {
+//     console.log(i)
+//    }
+//    i++
+// }while(i<=10)
+
+
+// i=1
+// do{
+//   if(i%3==0)
+//   {
+//     console.log(i)
+//   }
+//   i++
+// }while(i<=30)
+
+
+
+// sum=0
+// i=1
+// do{
+//   console.log(sum);
+//   sum=sum+i
+//   i++;
+// }while(i<=10)
+
+
+
+// fact=1;
+// i=1
+// do{
+//   console.log(fact)
+//   fact=fact*i
+//   i++
+// }while(i<=10)
 
 
 
 
+// num=5;
+// i=1
+// do{
+//   console.log(num *i)
+//   i++;
+// }while(i<=10)
 
 
-
-
-
-
-
-
-
+num=5
+i=1
+do{
+  console.log(i+'x' + num +'='+(num*i))
+  i++
+}while(i<=10)
