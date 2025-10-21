@@ -361,7 +361,7 @@
 // for(i=100;i>=1;i--)
 // {
 //   console.log(i);
-//
+
 
 
 
@@ -440,9 +440,128 @@
 // }while(i<=10)
 
 
-num=5
-i=1
-do{
-  console.log(i+'x' + num +'='+(num*i))
-  i++
-}while(i<=10)
+
+
+// num=5
+// i=1
+// do{
+//   console.log(i+'x' + num +'='+(num*i))
+//   i++
+// }while(i<=10)
+
+
+
+// function greet()
+// {
+//   console.log('good morning')
+// }
+// greet()
+
+
+
+// function sum(x,y)
+// {
+//   console.log('sum is' +(x+y))
+// }
+// let a=10
+// let b=20
+// sum(a,b)
+
+
+
+// function log(x,y)
+// {
+//   for(let i=x;i<=y;i++){
+//      console.log(i)
+//   } 
+// }
+// let a=10
+// let b=20
+// log(a,b)
+
+
+// function sum(x,y)
+// {
+// result=x+y
+// return result
+// }
+// let a=10
+// let b=20
+// res=sum(a,b)
+// console.log(res)
+
+
+
+// let a=10
+// let b=20
+// res=sum(a,b)
+// console.log(res)
+// function sum(x,y)
+// {
+// result=x+y
+// return result
+// }
+
+
+
+// let a=10
+// let b=20
+// res=sum()
+// console.log(res)
+// function sum()
+// {
+// result=a+b
+// return result
+// }
+
+
+// const greet=function(name)
+// {
+//   console.log(`hello ${name}`)
+// }
+// greet('athulya')
+
+
+
+// function sum(a,b,c)
+// {
+//   let sum=a+b+c
+//   return sum
+// }
+// let x=10;
+// let y=20;
+// let z=30;
+
+// let n=sum(x,y,z)
+// avg=n/3
+// console.log(avg)
+
+
+
+// let arr=[90,70]
+// console.log(arr)
+// callByReference(arr);
+// console.log(arr)
+// function callByReference(brr)
+// {
+//   brr[0]=brr[0]+10;
+//   brr[1]=brr[1]+10;
+//   console.log(brr)
+// }
+
+
+
+let a=20
+let b=80
+console.log(a,b)
+callByValue(a,b)
+// console.log(a,b)
+function callByValue(x,y)
+{
+  x=x+10;
+  y=y+10;
+  console.log(x,y)
+  console.log(a,b)
+}
+
+
