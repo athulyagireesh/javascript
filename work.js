@@ -551,17 +551,102 @@
 
 
 
-let a=20
-let b=80
-console.log(a,b)
-callByValue(a,b)
+// let a=20
+// let b=80
 // console.log(a,b)
-function callByValue(x,y)
+// callByValue(a,b)
+// // console.log(a,b)
+// function callByValue(x,y)
+// {
+//   x=x+10;
+//   y=y+10;
+//   console.log(x,y)
+//   console.log(a,b)
+// }
+
+
+
+// function sumNumbers(n)
+// {
+//   let total = 0;
+//   for (let i=1;i<=n;i++)
+//   {
+//     total=total + i;
+//   }
+//   return total;
+// }
+// console.log(sumNumbers(10));
+
+
+
+// let sum=function(a,b)
+// {
+//   let sum=a+b;
+//   console.log(sum)
+// }
+// sum(30,20)
+
+
+
+// let sum=(a,b)=>
+// {
+//   let sum=a-b;
+//   console.log(sum)
+// }
+// sum(90,10)
+
+
+
+
+// function outerFn()
+// {
+//   let a=10;
+//   console.log('outer working started')
+
+//   function innerFn(b)
+//   {
+//     let sum=a+b;
+//     console.log('inner working started')
+//     console.log('sum')
+//   }
+//   console.log('outer working ended')
+//   return innerFn;
+// }
+// let inner=outerFn();
+// inner(20);
+
+
+
+// (function(a,b)
+// {
+//   let sum=a+b;
+//   console.log(sum)
+// })(30,50)
+
+
+function sum(a,b,c)
 {
-  x=x+10;
-  y=y+10;
-  console.log(x,y)
-  console.log(a,b)
+  let sum=a+b+c;;
+  return sum;
 }
+function avg(x,y,z,operation)
+{
+  let avg=operation(x,y,z)/3;
+  console.log(avg)
+}
+avg(10,20,30,sum)
 
 
+
+// function factorial(n)
+// {
+//   if(n<=1)
+//   {
+//     return 1;
+//   }
+//   else{
+//     return n*factorial(n-1)
+//   }
+// }
+// let output=factorial(5)
+// console.log(output)
