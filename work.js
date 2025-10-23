@@ -624,23 +624,23 @@
 // })(30,50)
 
 
-function sum(a,b,c)
-{
-  let sum=a+b+c;;
-  return sum;
-}
-function avg(x,y,z,operation)
-{
-  let avg=operation(x,y,z)/3;
-  console.log(avg)
-}
-avg(10,20,30,sum)
+// function sum(a,b,c)
+// {
+//   let sum=a+b+c;;
+//   return sum;
+// }
+// function avg(x,y,z,operation)
+// {
+//   let avg=operation(x,y,z)/3;
+//   console.log(avg)
+// }
+// avg(10,20,30,sum)
 
 
 
 // function factorial(n)
 // {
-//   if(n<=1)
+// if(n<=1)
 //   {
 //     return 1;
 //   }
@@ -650,3 +650,65 @@ avg(10,20,30,sum)
 // }
 // let output=factorial(5)
 // console.log(output)
+
+
+
+let str="hello athulya"
+// console.log(str.length)
+
+// console.log(str.charAt(8))
+
+// console.log(str.indexOf(8))
+
+// console.log(str.substring(6,11))
+
+// console.log(str.toUpperCase())
+
+// console.log(str.toLowerCase())
+
+// console.log(str.trim())
+
+// console.log(str.trimStart())
+
+// console.log(str.trimEnd())
+
+// console.log(str.replace("athulya","synnefo"))
+
+// console.log(str.split(''))
+
+// let newstr=str.slice(0,5)
+// console.log(newstr)
+
+// console.log(str.lastIndexOf("l"))
+
+// console.log(str.startsWith("he"))
+
+// console.log(str.endsWith("ld"))
+
+
+
+let arr=[1,2,3,43,5,6,7]
+// arr.push(10)
+
+// arr.pop()
+
+// arr.shift()
+
+// arr.unshift()
+
+// arr.splice(2,0,70)
+
+// let newarr=arr.slice(3,6)
+// console.log(newarr)
+
+// console.log(arr.indexOf(43))
+
+// console.log(arr.includes(45))
+
+// console.log(arr.includes(43))
+
+// console.log(arr)
+
+
+str=" hello"
+console.log(str.trim().toUpperCase())
